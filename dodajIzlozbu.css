@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: #91ced4;
+  color: rgba(0, 0, 0, 0.8);
+  display: grid;
+  font-family: Cambria;
+  font-size: 18px;
+  font-weight: 400;
+  height: 80vh;
+  justify-items: center;
+  
+}
+
+.signup-container {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+.left-container {
+  background: #64B5AE;
+  overflow: hidden;
+  padding: 40px 0 0 0;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+.left-container h1 {
+  color: white;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.left-container .puppy {
+  bottom: -5px;
+  position: absolute;
+  text-align: center;
+}
+.left-container .puppy:before {
+  
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.left-container img {
+ 
+  width: 70%;
+}
+.right1
+{
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 1100px;
+  border-radius: 5%;
+}
+.right-container {
+  background: #daeff1;
+  display: grid;
+  grid-template-areas: "." ".";
+  width: 500px;
+}
+
+.right-container .set {
+  
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.right-container input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.right-container h1 {
+  color: #327a81;
+  display: inline-block;
+  font-size: 22px;
+}
+.right-container input, .right-container label {
+  color: #327a81;
+}
+.right-container header {
+  padding: 10px;
+}
+.right1 header
+{
+  width: 250px;
+}
+.right-container label, .right-container input, .right-container .pets-photo {
+  width: 176px;
+}
+
+.right-container .pets-weight .radio-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-container footer {
+  background: #fff;
+  display: grid;
+  padding: 5px 40px;
+}
+.right-container footer button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-family: Cambria;
+  text-align: center;
+  
+}
+select{
+  color:#327a81;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right-container footer #next {
+  background: #327a81;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.right-container footer #next:hover  {
+  background: #64B5AE;
+}
+.right-container footer #izmeni:hover  {
+  background: #64B5AE;
+}
+.right-container footer #izmeni
+{
+  background: #327a81;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-left: 150px;
+}
+.pets-name label, .pets-breed label, .pets-birthday label, .pets-gender label, .pets-spayed-neutered label, .pets-weight label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+

@@ -1,0 +1,204 @@
+  body
+  {
+  font-family: Cambria; 
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #327a81;
+    font-family: Cambria;
+  }
+  .card
+  {
+    font-family: Cambria;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #91ced4;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #91ced4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content button {
+    min-width: 160px;
+    float: none;
+    border:none;
+    color: white;
+    background-color: #91ced4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content button:hover {
+    background-color: #327a81;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .slideshow,
+  .slideshow:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 0;
+  }
+  
+  .slideshow li span {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation-timing-function: ease-in;
+    animation: 5s linear infinite 0s;
+  }
+
+  .no-cssanimations .cb-slideshow li span {
+    opacity: 1;
+  }
+  
+  .izlozbe
+  {
+    background-color: #91ced4;   
+  }
+  .naslov
+  {
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+  }
+  .containers
+  {
+    width:100%;
+    font-size: 20px;
+  }
+  .katizl
+  {
+    display: flex;
+  }
+  .kategorija
+  {
+    margin-left: 100px;
+  }
+  .katizl select
+  {
+    color:#327a81;
+  }
+  .desno
+  {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  .kontejner
+  {
+    text-align: center;
+    color:white;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 250px;
+    font-family: Cambria;
+    display: inline-block;
+    border:#327a81;
+    border-style:solid;
+    border-radius: 25%;
+  }
+  .kontejner select{
+    font-family: Cambria;
+    color:#327a81;
+    margin-bottom: 20px;
+  }
+  .kontejner option{
+    font-size: 16px;
+  }
+
+  .kontejner input
+  {
+    background: transparent;
+    border:none;
+    font-family:Cambria ;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:inherit;
+    margin-top: 20px;
+  }
+
+  .dugme
+  {
+    color:white;
+    background-color: #327a81;
+    font-family: Cambria;
+    text-align: center;
+    height:40px;
+  }
+  .dugsamp
+  {
+  text-align: right;
+  }
+  .dugme1{
+    color:white;
+    background-color: #327a81;
+    font-family: Cambria;
+    text-align: center;
+    height:50px;
+    font-size: 17px;
+    margin-top: 60px;
+  }
+  .sampioni{
+    margin-top: 30px;
+    display: flex;
+    color:#327a81;
+    font-size: 17px;
+    font-family: Cambria;
+  }
+  .sampioni img{
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+  }
+ 

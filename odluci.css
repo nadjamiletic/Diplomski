@@ -1,0 +1,38 @@
+.column {
+    float: left;
+    margin-left: 105px;
+    
+  }
+  .column1 {
+    float: left;
+   
+    margin-left: 80px;
+  }
+  img{
+      height:500px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row button {
+    width: 250px;
+    height: 40px;
+    background: #327a81;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #327a81;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Cambria;
+    outline: none;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background: #91ced4;
+}

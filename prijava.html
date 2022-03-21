@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' href="prijava.css">
+<head>
+<script type="text/javascript">
+  function validate()
+  {
+    var username = document.login.username.value;
+    var passw = document.login.passw.value;
+    if (username==null || username=="")
+    {
+      alert("Morate uneti username.");
+      return false;
+    }
+    else if (passw==null || passw=="")
+    {
+      alert("Morate uneti password.");
+      return false;
+    }
+  }
+</script>
+</head>
+<body>
+<div class="login-block">
+  <form name="login" action="odluci.php" method="post" onsubmit="return validate();">
+  <h1>Prijava</h1>
+  <input type="text" value="" placeholder="Username" id="username" name="username"/>
+  <input type="password" value="" placeholder="Password" id="passw" name="passw"/>
+  <button type="submit" name="submit">Prijavi se</button>  
+  <img src="pocetna/Screenshot_109.png" alt="">
+  </form>
+</div>
+</body>
+</html>
